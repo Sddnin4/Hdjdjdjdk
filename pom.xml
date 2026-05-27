@@ -6,7 +6,7 @@
 
     <groupId>com.yourname</groupId>
     <artifactId>PurpurAggressiveOptimizer</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -16,7 +16,6 @@
     </properties>
 
     <repositories>
-        <!-- Repository chính thức của Paper/Purpur -->
         <repository>
             <id>papermc-repo</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
@@ -24,7 +23,6 @@
     </repositories>
 
     <dependencies>
-        <!-- Sử dụng Paper API (Tương thích hoàn toàn với Purpur) -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
