@@ -1,0 +1,32 @@
+# =======================================================
+# Cấu hình PurpurAggressiveOptimizer dành cho máy chủ yếu
+# =======================================================
+
+# Ngưỡng TPS để kích hoạt các chế độ giới hạn cực đoan
+tps-threshold: 17.5
+
+# Khoảng cách quét (bán kính block) xung quanh người chơi để giữ AI của Mob
+# Nếu TPS xuống dưới ngưỡng, khoảng cách này sẽ tự động bị giảm đi 8 block
+mob-ai-radius: 24
+
+# Giới hạn số lượng Mob tối đa trong một Chunk (16x16)
+max-monsters-per-chunk: 8
+max-animals-per-chunk: 6
+
+# Thời gian biến mất (tính bằng giây) của vật phẩm rác (Mặc định game là 300 giây)
+trash-item-despawn-seconds: 30
+
+# Danh sách vật phẩm bị coi là rác và áp dụng thời gian biến mất nhanh
+trash-items:
+  - COBBLESTONE
+  - DIRT
+  - NETHERRACK
+  - ARROW
+  - GRAVEL
+  - SAND
+  - ROTTEN_FLESH
+  - BONE
+  - SEEDS
+
+# Giới hạn số lượng cập nhật Redstone tối đa trong 1 chunk mỗi giây để chống máy lag
+max-redstone-updates-per-second: 100
