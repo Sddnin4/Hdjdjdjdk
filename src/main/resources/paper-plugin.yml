@@ -1,0 +1,15 @@
+name: PurpurAggressiveOptimizer
+version: '1.0'
+main: com.yourname.purpuroptimizer.PurpurAggressiveOptimizer
+api-version: '1.21'
+author: Gemini
+description: Toàn diện tối ưu hóa cho máy chủ Purpur cấu hình yếu.
+permissions:
+  purpuroptimizer.admin:
+    description: Quyền sử dụng lệnh quản trị plugin.
+    default: op
+commands:
+  purpuroptimizer:
+    description: Lệnh chính của hệ thống tối ưu hóa.
+    aliases: [pao]
+    permission: purpuroptimizer.admin
